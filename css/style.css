@@ -17,6 +17,7 @@
   width: 100%;
   color: #fff;
   overflow: hidden;
+  border: 1px solid #fff;
 }
 
 .box input {
@@ -37,7 +38,6 @@
 
 .box-content {
   position: relative;
-  /*display: inline-block;*/
   display: flex;
   justify-content: center;
   align-items: center;
