@@ -6,41 +6,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bayan</title>
     <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css "
-    />
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css "
+  />
     <link rel="stylesheet" type="text/css" href="./css/style.css" />
   </head>
   <body>
-    <section class="ac-container">
-      <div>
-        <input id="ac-1" name="accordion-1" type="checkbox" checked />
-        <label for="ac-1">О нас</label>
-        <article>
-          <p>Какой нибудь замечательный текст...</p>
-        </article>
+    <div class="wrapper">
+      <h1 class="page__heading">CSS Bayan</h1>
+
+      <div class="bayan">
+        <div class="box">
+          <input id="box-one" type="checkbox" name="boxes" />
+          <label for="box-one">You can't just copy</label>
+          <div class="box-content">
+            <img src="./img/1.jpg" width="300" alt="img" />
+            <p>Don't copy!!</p>
+          </div>
+        </div>
+        <div class="box">
+          <input id="box-two" type="checkbox" name="boxes" />
+          <label for="box-two">Keep calm</label>
+          <div class="box-content">  
+            <img src="./img/2.jpg" width="300" alt="img" />
+
+            <p>You will learn everything</p>
+          </div>
+        </div>
+        <div class="box">
+          <input id="box-three" type="checkbox" name="boxes" />
+          <label for="box-three">Work life balance </label>
+          <div class="box-content">
+            <img src="./img/3.jpg" width="300" alt="img" />
+            <p>Work life balance</p>
+          </div>
+        </div>
+        <div class="box">
+          <input id="box-four" type="checkbox" name="boxes" />
+          <label for="box-four">Dude,where js?</label>
+          <div class="box-content">
+            <img src="./img/4.jpg" width="300" alt="img" />
+            <p>Dude,where js?</p>
+          </div>
+        </div>
+          <div class="box">
+            <input id="box-five" type="checkbox" name="boxes" />
+            <label for="box-five">Relax and take it easy</label>
+            <div class="box-content">
+              <img src="./img/5.jpg" width="300" alt="img" />
+              <p>Relax and take it easy</p>
+            </div>
+          </div>
       </div>
-      <div>
-        <input id="ac-2" name="accordion-1" type="checkbox" />
-        <label for="ac-2">Услуги</label>
-        <article>
-          <p>Какой нибудь замечательный текст...</p>
-        </article>
-      </div>
-      <div>
-        <input id="ac-3" name="accordion-1" type="checkbox" />
-        <label for="ac-3">Портфолио</label>
-        <article>
-          <p>Какой нибудь замечательный текст...</p>
-        </article>
-      </div>
-      <div>
-        <input id="ac-4" name="accordion-1" type="checkbox" />
-        <label for="ac-4">Контакты</label>
-        <article>
-          <p>Какой нибудь замечательный текст...</p>
-        </article>
-      </div>
-    </section>
+
   </body>
 </html>
