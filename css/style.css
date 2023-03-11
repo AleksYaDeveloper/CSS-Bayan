@@ -94,7 +94,9 @@ p {
   -o-transition: all 0.35s;
   transition: all 0.35s;
 }
-
+.box label:hover {
+  cursor: pointer;
+}
 .box input[type="checkbox"] + label::after {
   content: "+";
 }
